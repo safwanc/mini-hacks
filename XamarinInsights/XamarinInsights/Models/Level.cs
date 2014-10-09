@@ -123,12 +123,16 @@ namespace XamarinInsights
 
 		void OutOfTime ()
 		{
-			throw new Exception ("You ran out of time!!!!");
+            var e = new Exception ("You ran out of time!!!!");
+            Analytics.LogException(e); 
+            throw e; 
 		}
 
 		void WrongKey ()
 		{
-			throw new Exception ("You pressed a wrong key :(");
+            var e = new Exception ("You pressed a wrong key :(");
+            Analytics.LogException(e); 
+            throw e; 
 		}
 
 	}
