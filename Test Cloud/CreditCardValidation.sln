@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidation.iOS", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidation.Droid", "CreditCardValidation.Droid\CreditCardValidation.Droid.csproj", "{268808CD-AFEC-4E7F-AA51-5D972C0678CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidation.UITests", "CreditCardValidation.UITests\CreditCardValidation.UITests.csproj", "{F261E2B3-14E6-4687-BC49-08686ABA2B71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
@@ -53,6 +55,22 @@ Global
 		{268808CD-AFEC-4E7F-AA51-5D972C0678CA}.Release|iPhone.Build.0 = Release|Any CPU
 		{268808CD-AFEC-4E7F-AA51-5D972C0678CA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{268808CD-AFEC-4E7F-AA51-5D972C0678CA}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Release|iPhone.Build.0 = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F261E2B3-14E6-4687-BC49-08686ABA2B71}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = CreditCardValidation.iOS\CreditCardValidation.iOS.csproj

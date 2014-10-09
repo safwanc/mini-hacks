@@ -1,8 +1,8 @@
 #!/bin/sh
 
 ### Add your Test Cloud API Key/iOS Device Id and uncomment the line below
-# export TESTCLOUD_API_KEY=<SetYourAPIKeyHere>
-# export IOS_DEVICE_ID=<SetYourDeviceIdsHere>
+export TESTCLOUD_API_KEY=0538c4d0c1d9b32cb951f5da41662a26
+export IOS_DEVICE_ID=08037fd2
 
 ### You shouldn't have to update these variables.
 export IPA=./CreditCardValidation.iOS/bin/iPhone/Debug/CreditCardvalidationiOS-1.0.ipa
@@ -22,4 +22,4 @@ rm -rf CreditCardValidation.UITest/obj
 
 
 ### This line submits the application and tests to Test Cloud.
-mono ./packages/Xamarin.UITest.0.6.2/tools/test-cloud.exe submit $IPA $TESTCLOUD_API_KEY --devices $IOS_DEVICE_ID --assembly-dir $ASSEMBLY_DIR
+mono ./packages/Xamarin.UITest.0.6.5/tools/test-cloud.exe submit $IPA $TESTCLOUD_API_KEY --devices $IOS_DEVICE_ID --assembly-dir $ASSEMBLY_DIR
